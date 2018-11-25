@@ -1,0 +1,41 @@
+$hover-color : #933dad;
+$menu-color : #b8abff;
+
+nav {
+  display: flex;
+  height: 100%;
+  background: $menu-color;
+}
+
+nav ul {
+  padding: 0;
+  text-align: center;
+}
+
+nav li {
+  margin: 0;
+  list-style: none;
+}
+
+nav a {
+  box-sizing: border-box;
+  display: inline-block;
+  padding: 0.75em;
+  color: $hover-color;
+  text-transform: uppercase;
+  text-decoration: none;
+  line-height: 2.5;
+}
+
+nav a:hover {
+  background: $hover-color;
+  color: #fff;
+}
+
+#hamburger img{
+  width: 50px;
+}
+
+.display{
+  display: none;
+}
